@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Alex CV</title>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img class="avatar" src="avatar.jpg" alt="моя аватарка"/>
+        <div class="info-text">
+          <h1>Александр Павлюк</h1>
+          <p><strong>Начинающий</strong>
+            <u>Java backend разработчик</u>
+          </p>
+
+          <h3>Социальные сети</h3>
+          <a href="https://vk.com/s_pavlyuk03" target="_blank">VK</a>
+          |
+          <a href="https://t.me/s_pavlyuk1" target="_blank">Telegram</a>
+          |
+          <a href="https://github.com/alex-pvl" target="_blank">GitHub</a>
+        </div>
+      </div>  
+
+      <div class="card bg-yellow">
+        <h2>Хобби</h2>
+        <ol class="list">
+          <li>📖 Читать книги</li>
+          <li>🎧 Слушать музыку</li>
+          <li>💻 Программировать</li>
+        </ol>
+      </div>
+
+      <div class="card bg-green">
+        <h2>Образование</h2>
+        <table class="table">
+          <tr>
+            <td>НГТУ</td>
+            <td>Высшее</td>
+            <td>2020-2024</td>
+          </tr>
+          <tr>
+            <td>МБОУ СОШ №6</td>
+            <td>Среднее общее</td>
+            <td>2009-2020</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="card bg-red">
+        <h2>Сертификаты</h2>
+        <ul class="link-list">
+          <li><a href="https://udemy-certificate.s3.amazonaws.com/image/UC-10385967-ffc7-4a49-a396-b2dbdd763e9f.jpg?v=1645606679000" target="_blank">Java Programming Masterclass</a></li>
+          
+          <li><a href="https://udemy-certificate.s3.amazonaws.com/image/UC-c7199185-9f58-4721-bb2a-98a23fd866bc.jpg?v=1654965292000
+          " target="_blank">Java с нуля до Junior</a></li>
+        </ul>
+      </div>  
+
+      <div class="contact">
+        <h3>Связаться со мной</h3>
+        <form>
+          
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Ваше имя: </label>
+              <input type="text" id="name" placeholder="Введите имя..." />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Ваш Email: </label>
+              <input type="email" id="email" placeholder="Введите email..." />
+            </div>
+          </div>  
+
+          <div class="form-group">
+            <label for="text">Ваше сообщение: </label>
+            <textarea
+              id="text"
+              rows="7"
+              cols="30"
+              placeholder="Введите сообщение..."
+            ></textarea>
+          </div>
+
+          <input class="btn" type="submit" value="Связаться" />
+        </form>
+
+      </div>
+    </div>
+    <div style="margin-bottom: 100px;"></div>
+  </body>
+</html>
